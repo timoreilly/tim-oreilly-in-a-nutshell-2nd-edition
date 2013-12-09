@@ -1,26 +1,42 @@
 {
   "files": [
-    "cover.html",
-    "01-titlepage.html",
-    "02-copyright.html",
-    "03-toc.html",
-    "04-preface.html",
-    "05-chapter.html",
-    "06-appendix.html"
+    "ch01.html",
+    "ch02.html",
+    "ch03.html",
+    "ch04.html",
+    "ch05.html",
+    "ch06.html",
+    "ch07.html",
+    "ch08.html",
+    "ch09.html",
+    "ch10.html",
+    "ch11.html",
+    "ch12.html",
+    "ch13.html",
+    "ch14.html",
+    "ch15.html",
+    "ch16.html"
   ],
   "formats": {
     "pdf": {
       "version": "web",
-      "toc": true
+      "toc": true,
+      "index": false
     },
     "epub": {
+      "index": false,
+      "toc": false,
+      "epubcheck": false
     },
     "mobi": {
+      "index": false,
+      "toc": false
     },
     "html": {
-      "toc": true
+      "toc": true,
+      "index": false
     }
   },
-  "theme": "oreillymedia/atlas_tech1c_theme",
-  "title": "Tim OReilly in a Nutshell, 2nd Edition"
+  "theme": "oreillymedia/atlas_trade_theme",
+  "title": "Tim O'Reilly in a Nutshell, 2nd Edition"
 }
